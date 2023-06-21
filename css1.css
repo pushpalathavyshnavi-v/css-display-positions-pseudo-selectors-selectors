@@ -1,0 +1,131 @@
+body
+{
+  margin:0px;
+  outline:0px;
+  background-color:#ccc;
+height:2000px;
+
+}
+  nav
+{
+ 
+  border:3px solid;
+  padding:8px;
+  margin:auto;
+  font-size:25px;
+  font-weight:900;
+  text-transform:uppercase;
+  text-indent:2%;
+  background-color:white;
+  position:fixed;
+  width:98%;
+  z-index:2;
+}
+#nav-container
+{
+  float:left;
+  border:2px solid;
+  width:15%;
+  padding:15px;
+  position:relative;
+  left:150px;
+  top:80px;
+  height:225px;
+  background-color:white;
+  
+}
+#nav-title
+{
+  text-transform:uppercase;
+  display:inline-block;
+  text-indent:0%;
+  color:brown;
+  font-size:25px;
+  
+}
+div a
+{
+  color:black;
+  text-decoration-style:
+}
+.nav li
+{
+   text-indent:2px;
+}
+.body
+{
+  padding:20px;
+  overflow:scroll;
+  text-indent:50px;
+  border:3px solid black;
+  position:relative;
+  left:350px;
+  top:80px;
+  bottom:20px;
+  width:50%;
+  background-color:white;
+  
+}
+div:last-child
+{
+  color:blue;
+}
+.blockquote:not(.block)
+{
+ font-weight:900;
+}
+blockquote
+{
+  border:2px solid ;
+  text-align:center;
+  background-color:#ccc;
+}
+
+footer
+{
+  display:block;
+  position:fixed;
+  bottom:0px;
+  text-indent:500px;
+  border:3px solid;
+  padding:15px;
+  width:96%;
+  background-color:gray;
+}
+footer div
+{
+  display:inline;
+  border:2px solid;
+  margin:15px;
+  opacity:0.50;
+}
+.v
+{
+  border-style:solid;
+  width:250px;
+  height:20px;
+  border-radius:50px;
+}
+.v:focus
+{
+  background-color:blue;
+  font-size:20px;
+  borer:solid 5px black;
+  height:290px;
+  width:500px;
+  color:white;
+  font-weight:900;
+ }
+.submit
+{
+ border-radius:50px;
+ padding:3px;
+}
+.submit:focus 
+{
+ background-color:blue;
+}
+.p:checked+span
+{
+ background-color:white;
+}
